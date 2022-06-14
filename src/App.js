@@ -49,7 +49,7 @@ function App() {
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
           <Alert alert={alert}/>
       <Routes>
-            <Route path="/" element={<div className="container my-3"><TextForm showAlert={showAlert} heading="TextUtility-Word Counter Lowercase Uppercase Charater Counter" mode={mode}/></div>} />
+            <Route path="/" element={<div className="container my-3"><TextForm showAlert={showAlert} heading="TextUtility-Word Counter Lowercase Uppercase Character Counter" mode={mode}/></div>} />
             <Route path="/about" element={<div className="container my-3"><About mode={mode} /> </div>} />
    
         
